@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8A5CEF51282D9EED00B1B1C9 /* iChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF50282D9EED00B1B1C9 /* iChatApp.swift */; };
-		8A5CEF53282D9EED00B1B1C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF52282D9EED00B1B1C9 /* ContentView.swift */; };
+		8A5CEF53282D9EED00B1B1C9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF52282D9EED00B1B1C9 /* SignInView.swift */; };
 		8A5CEF55282D9EF300B1B1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CEF54282D9EF300B1B1C9 /* Assets.xcassets */; };
 		8A5CEF58282D9EF300B1B1C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CEF57282D9EF300B1B1C9 /* Preview Assets.xcassets */; };
 		8A5CEF62282D9EF300B1B1C9 /* iChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF61282D9EF300B1B1C9 /* iChatTests.swift */; };
 		8A5CEF6C282D9EF300B1B1C9 /* iChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF6B282D9EF300B1B1C9 /* iChatUITests.swift */; };
 		8A5CEF6E282D9EF300B1B1C9 /* iChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF6D282D9EF300B1B1C9 /* iChatUITestsLaunchTests.swift */; };
+		8A5CEF7B282DE88300B1B1C9 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF7A282DE88300B1B1C9 /* SignInViewModel.swift */; };
+		8A5CEF7D282E878C00B1B1C9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF7C282E878C00B1B1C9 /* SignUpView.swift */; };
+		8A5CEF7F282E881100B1B1C9 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CEF7E282E881100B1B1C9 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		8A5CEF4D282D9EED00B1B1C9 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5CEF50282D9EED00B1B1C9 /* iChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatApp.swift; sourceTree = "<group>"; };
-		8A5CEF52282D9EED00B1B1C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A5CEF52282D9EED00B1B1C9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		8A5CEF54282D9EF300B1B1C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5CEF57282D9EF300B1B1C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A5CEF5D282D9EF300B1B1C9 /* iChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		8A5CEF67282D9EF300B1B1C9 /* iChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5CEF6B282D9EF300B1B1C9 /* iChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatUITests.swift; sourceTree = "<group>"; };
 		8A5CEF6D282D9EF300B1B1C9 /* iChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A5CEF7A282DE88300B1B1C9 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		8A5CEF7C282E878C00B1B1C9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8A5CEF7E282E881100B1B1C9 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				8A5CEF50282D9EED00B1B1C9 /* iChatApp.swift */,
-				8A5CEF52282D9EED00B1B1C9 /* ContentView.swift */,
+				8A5CEF52282D9EED00B1B1C9 /* SignInView.swift */,
 				8A5CEF54282D9EF300B1B1C9 /* Assets.xcassets */,
 				8A5CEF56282D9EF300B1B1C9 /* Preview Content */,
+				8A5CEF7A282DE88300B1B1C9 /* SignInViewModel.swift */,
+				8A5CEF7C282E878C00B1B1C9 /* SignUpView.swift */,
+				8A5CEF7E282E881100B1B1C9 /* SignUpViewModel.swift */,
 			);
 			path = iChat;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5CEF53282D9EED00B1B1C9 /* ContentView.swift in Sources */,
+				8A5CEF7D282E878C00B1B1C9 /* SignUpView.swift in Sources */,
+				8A5CEF53282D9EED00B1B1C9 /* SignInView.swift in Sources */,
+				8A5CEF7F282E881100B1B1C9 /* SignUpViewModel.swift in Sources */,
 				8A5CEF51282D9EED00B1B1C9 /* iChatApp.swift in Sources */,
+				8A5CEF7B282DE88300B1B1C9 /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
